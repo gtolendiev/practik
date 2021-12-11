@@ -1,0 +1,77 @@
+body{
+        animation: background 3s infinite alternate;
+}
+      @keyframes background {
+        50% {
+          background: skyblue;
+        }
+      }
+      BODY {
+        margin-bottom: 200PX;
+        margin-top: 200px;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #EEE;
+        font-size: 16px;
+      }   
+}
+.divka{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: auto;       
+}
+#clock{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .look-calendar {
+    width: 350px;
+    border: 20px inset #0720af;
+    padding: 8px;
+    background-color: #130555;
+    margin: 0 auto;   
+  }
+  #calendar {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+    border-spacing:2px;
+    color: rgb(255, 255, 255);
+  }
+  #calendar tr.dn td {
+    color: #ffffff;
+    font-weight: 700;
+  }
+  #calendar thead tr:last-child {
+    font-size: small;
+    color: #7a10d1;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(1):hover,
+  #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+  }
+  #calendar tbody td {
+    color: #ffffff;
+  }
+  #calendar tbody td:nth-child(n+6),
+  #calendar .holiday {
+    color: #c50c05;
+  }
+  #calendar tbody td.today {
+    background: #dc0000;
+    color: #fff;
+  }
