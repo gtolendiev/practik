@@ -1,0 +1,88 @@
+.cont{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  
+  
+  
+  }
+  
+  
+  .circles{
+  
+  height: 80px;
+  width: 80px;
+  background: url("https://cdn.icon-icons.com/icons2/933/PNG/64/settings-cogwheel-button_icon-icons.com_72559.png");
+  background-size: cover;
+  position: absolute;
+  left: 27px;
+  top: 47px;
+  overflow:hidden;
+  
+  }
+  
+  
+  #no1{
+  left:110px;
+  top:170px;
+  animation-name: crcA1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  }
+  
+  #no2{
+  left:157px;
+  top:110px;
+  animation-name: crcA2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  }
+  
+  #no3{
+  left:203px;
+  top:170px;
+  animation-name: crcA1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  }
+
+  #n1{
+    left:410px;
+    top:170px;
+    animation-name: crcA1;
+    animation-duration: 3s;
+    /*animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+    }
+    
+  #n2{
+    left:457px;
+    top:110px;
+    animation-name: crcA2;
+    animation-duration: 3s;
+    /*animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+    }
+    
+  #n3{
+    left:503px;
+    top:170px;
+    animation-name: crcA1;
+    animation-duration: 3s;
+    /*animation-iteration-count: infinite;
+    /*animation-timing-function: linear;*/
+    }
+  
+  
+  @keyframes crcA1 {
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
+  }
+  
+  @keyframes crcA2 {
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(-360deg);}
+  }
